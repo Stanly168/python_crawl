@@ -1,6 +1,7 @@
 from playwright.sync_api import sync_playwright
 from time import sleep
 
+
 def main():
     with sync_playwright() as p:
         print(f"p={type(p)}")
